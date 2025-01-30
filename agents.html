@@ -5,31 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Agents - DeepSeek</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="hero">
     <div class="container">
       <h1>Our AI Agents</h1>
-      <p>Choose an AI agent to get started.</p>
+      <p>Choose an AI agent to get started and experience the power of DeepSeek AI.</p>
     </div>
   </header>
 
   <section class="agents">
     <div class="container">
-      <div class="agent-card">
-        <h3>Agent Alpha</h3>
-        <p>A versatile AI agent for general tasks.</p>
-        <button onclick="connectToAgent('Alpha')">Connect</button>
-      </div>
-      <div class="agent-card">
-        <h3>Agent Beta</h3>
-        <p>Specialized in crypto analysis and predictions.</p>
-        <button onclick="connectToAgent('Beta')">Connect</button>
-      </div>
-      <div class="agent-card">
-        <h3>Agent Gamma</h3>
-        <p>Perfect for natural language processing.</p>
-        <button onclick="connectToAgent('Gamma')">Connect</button>
+      <div class="agent-grid">
+        <div class="agent-card">
+          <div class="icon">🦾</div>
+          <h3>Agent Alpha</h3>
+          <p>A versatile AI agent designed for general tasks and adaptability.</p>
+          <button onclick="connectToAgent('Alpha')">Connect</button>
+        </div>
+        <div class="agent-card">
+          <div class="icon">📊</div>
+          <h3>Agent Beta</h3>
+          <p>Specialized in data analysis, predictions, and advanced analytics.</p>
+          <button onclick="connectToAgent('Beta')">Connect</button>
+        </div>
+        <div class="agent-card">
+          <div class="icon">🗣️</div>
+          <h3>Agent Gamma</h3>
+          <p>Perfect for natural language processing and communication tasks.</p>
+          <button onclick="connectToAgent('Gamma')">Connect</button>
+        </div>
       </div>
     </div>
   </section>
